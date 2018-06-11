@@ -1,0 +1,62 @@
+object Form1: TForm1
+  Left = 391
+  Height = 380
+  Top = 143
+  Width = 508
+  Caption = 'Form1'
+  ClientHeight = 380
+  ClientWidth = 508
+  DesignTimePPI = 120
+  LCLVersion = '1.8.2.0'
+  object imgCouleur: TImage
+    Left = 160
+    Height = 300
+    Top = 32
+    Width = 300
+  end
+  object btNoir: TButton
+    Left = 32
+    Height = 37
+    Top = 32
+    Width = 94
+    Caption = 'Noir'
+    OnClick = btNoirClick
+    TabOrder = 0
+  end
+  object btRouge: TButton
+    Left = 32
+    Height = 37
+    Top = 98
+    Width = 94
+    Caption = 'Rouge'
+    OnClick = btRougeClick
+    TabOrder = 1
+  end
+  object btCouleurs: TButton
+    Left = 32
+    Height = 37
+    Top = 165
+    Width = 94
+    Caption = '4 couleurs'
+    OnClick = btCouleursClick
+    TabOrder = 2
+  end
+  object btRayure: TButton
+    Left = 32
+    Height = 37
+    Top = 231
+    Width = 94
+    Caption = 'Rayure'
+    OnClick = btRayureClick
+    TabOrder = 3
+  end
+  object btDamier: TButton
+    Left = 32
+    Height = 37
+    Top = 295
+    Width = 94
+    Caption = 'Damier'
+    OnClick = btDamierClick
+    TabOrder = 4
+  end
+end
